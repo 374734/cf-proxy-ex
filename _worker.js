@@ -5,7 +5,7 @@ addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
 
-
+ 
 const str = "/";
 const lastVisitProxyCookie = "__PROXY_VISITEDSITE__";
 const passwordCookieName = "__PROXY_PWD__";
